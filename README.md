@@ -24,3 +24,4 @@ However, you encounter challenges:
 Implement solution using the Builder Pattern to address the issue.
 
 # Class Diagram
+![Builder Pattern](https://github.com/RonanSoriano/builderPattern/assets/142371669/95d9be46-78e8-4b7d-8316-4f1b200e0474)
