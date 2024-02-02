@@ -1,6 +1,6 @@
 package builderPattern;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class ECommerceApp {
     public static void main(String[] args) {
@@ -63,9 +63,13 @@ public class ECommerceApp {
             }
         }
 
-        User user = new User.UserBuilder(firstName, lastName, phone, age)
+        User user = new User.UserBuilder()
+                  .firstName(firstName)
+                  .lastName(lastName)
                   .email(email)
                   .address(address)
+                  .phone(phone)
+                  .age(age)
                   .build();
 
 
