@@ -64,12 +64,12 @@ public class ECommerceApp {
         }
 
         User user = new User.UserBuilder()
-                  .firstName(firstName)
-                  .lastName(lastName)
-                  .email(email)
-                  .address(address)
-                  .phone(phone)
                   .age(age)
+                  .lastName(lastName)
+                  .phone(phone)
+                  .address(address)
+                  .firstName(firstName)
+                  .email(email)
                   .build();
 
 
